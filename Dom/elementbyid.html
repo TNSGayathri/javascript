@@ -1,0 +1,29 @@
+</!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ELement by id</title>
+</head>
+<body>
+	<h1 id="tt"><p>Gayathri</p></h1>
+	<h1 id="tt1"><p>Aditya Enginnering College</p></h1>
+	<img id="img1" src="">
+	<br>
+	<input type="text" name="" id="ins_id">
+	<script type="text/javascript">
+		let a=document.getElementById("tt");
+		a.innerHTML='Manya';
+		document.getElementById("tt").style.color="blue";
+		document.getElementById("tt1").style.fontSize="50px";
+		document.getElementById('img1').src="../tom.jpg";
+		let ins=document.getElementById('ins_id');
+		ins.value='dcg';
+		ins.style.border="3px dotted red";
+		if(ins.value==""){
+			document.write("Please enter your name");
+		}
+	</script>
+
+</body>
+</html>

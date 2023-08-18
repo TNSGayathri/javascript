@@ -1,0 +1,29 @@
+</!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Var,let and const</title>
+</head>
+<body>
+<script type="text/javascript">
+	//var  is global level 
+	var a=10;
+	document.write(a,"<br>");
+	//let and constant are  used at block level
+    let b=20;
+    document.write(b,"<br>");
+    //reintialising is possible
+    //redeclaring is not possible
+    {
+    let c=30;
+    document.write(c,"<br>");	
+    }
+    //document.write(c);---it is not possible because it is declared out pf the block
+    const pi=3.14;
+    document.write(pi);
+    //reintialising is  not possible
+    //redeclaring is not possible
+</script>
+</body>
+</html>

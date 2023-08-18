@@ -1,0 +1,33 @@
+</!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dom methods</title>
+</head>
+<body>
+ <p class="topic">HTML</p>
+ <p class="topic">SS</p>
+ <p class="topic">BS</p>
+ <p class="topic">JS</p>
+ <ul>
+ 	<li>AEC</li>
+ 	<li>AECT</li>
+ 	<li>ACOE</li>
+ </ul>
+ <script type="text/javaScript">
+ 	let s=document.getElementsByClassName('topic');
+ 	s[0].innerHTML='hyper text markup language ';
+ 	s[0].style.color="blue";
+ 	s[2].innerHTML='Bootstrap';
+ 	s[2].style.color="red";
+ 	/*queryselector---->it takes the first value*/
+ 	let lis =document.querySelector(".topic");
+ 	lis.innerText='html';
+ 	let lis =document.querySelector("li");//tag name
+ 	lis.innerText='html';
+ 	let a=document.getElementsByTagName('li');
+ 	a[0].innerText='Aditya engineering college';
+ </script>
+</body>
+</html>
